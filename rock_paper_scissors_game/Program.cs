@@ -40,7 +40,7 @@ namespace rock_paper_scissors_game
 
                 continue;
             }
-            
+            Console.Clear();
             Console.WriteLine("********** Game Over **********");
             Console.WriteLine($"Win: {playerScore}\nLoss: {computerScore}\nTie: {draw}");
             Console.Write("\nPress any key to exit the window.......");
